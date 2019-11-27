@@ -47,20 +47,20 @@
 #     'argentino'
 # ]
 # tiririca = [
-#     'tiririca',
-#     'palhaço',
-#     'tiririca',
-#     'florentina'
-# ]
+     'tiririca',
+     'palhaço',
+     'tiririca',
+     'florentina'
+ ]
 
 # #Atribuindo todas as figuras públicas para uma lista
-# figuras_publicas = [bolsonaro, lula, hitler, tiririca]
+ figuras_publicas = [bolsonaro, lula, hitler, tiririca]
 
-# # Atribuindo todos os apelidos a um arquivo de texto
-# for figura in figuras_publicas:
-#     for apelido in figura:
-#         with open('politicos.txt','a') as arquivo:
-#             arquivo.write(apelido + '\n')
+ # Atribuindo todos os apelidos a um arquivo de texto
+ for figura in figuras_publicas:
+     for apelido in figura:
+        with open('politicos.txt','a') as arquivo:
+             arquivo.write(apelido + '\n')
 
 
 with open('politicos.txt','r') as arquivo:
