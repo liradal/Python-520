@@ -32,11 +32,11 @@
 #     if opcao == '1':
 #         registrar_produto()          
 #     elif opcao == '2':
-#         consultar_saldo()         
+#         consultar_saldo()    #!/usr/bin/python3 
 #     elif opcao == '3':
-#         abrir_caixa()         
+#         abrir_caixa()        #!/usr/bin/python3 
 #     elif opcao == '4':
-#         fechamento()         
+#         fechamento()         #!/usr/bin/python3 
 #     else:
 #         break
 #     input()
